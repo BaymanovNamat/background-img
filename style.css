@@ -1,0 +1,106 @@
+div {
+  background-color: red;
+  background-image: url(./images/kyrgyzstan-info.jpg);
+  height: 400px;
+  background-size: 200px 100px;
+  background-repeat: no-repeat;
+  /*background-position: 50% 50%;*/
+  background-position: center center;
+}   
+
+p {
+    background-image: url(./images/smile-1.jpg);
+    background-size: 50px;
+    width: 300px;
+    height: 250px;
+    border: 3px solid rgb(246, 253, 246);
+    margin: 10px;
+    background-repeat: repeat;
+  }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+#example-1 {
+  background-repeat: repeat-x;
+  border: 3px solid rgb(14, 13, 13);
+}
+#example-2 {
+  background-repeat: repeat-y;
+  border: 3px solid rgb(14, 13, 13);
+}
+#example-3 {background-position: 50% 50%;
+
+  background-repeat: no-repeat;
+  border: 3px solid rgb(14, 13, 13);
+}
+#example-4 {
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  background-position: center left;
+}
+ #example-5 {
+   background-repeat: no-repeat;
+   border: 3px solid black;
+   background-position: center right;
+ }
+ #example-6 {
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  background-position: top center;
+}
+#example-7 {
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  background-position: bottom center;
+}
+#example-8 {
+  padding: 40px;
+  
+  background-color: rgb(255, 255, 255);
+  background-image: url(./images/kyrgyzstan-info.jpg);
+
+
+  background-repeat: no-repeat;
+  background-size: 1500px 600px;
+  width: 100%;
+  margin-left: 0px;
+  background-position: center;
+  height: 800px;
+}
+.page-1 {
+  border: 0px solid red;
+  margin-top: 10px;
+  margin-left: 210px;
+  width: 60%;
+  font-size: 45px;
+  margin-bottom: 60px;
+  color: white;
+}
+#example-9 {
+  text-align: justify;
+  width: 35%;
+  border: 0px solid green;
+  margin-top: 300px;
+  margin-left: 210px;
+  color: white;
+  font-size: 25px;
+}
+#example-10 {
+  color: white;
+  border: 0px solid red;
+  width: 25%;
+  padding-left: 45px;
+  margin-left: 165px;
+  font-size: 20px;
+  margin-bottom: 100px;
+  font-size: 25px;
+}
+.page-20 {
+  margin-left: 555px;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+
